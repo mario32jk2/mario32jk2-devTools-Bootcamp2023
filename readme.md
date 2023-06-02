@@ -1,1 +1,0 @@
-Aqui desarrollare mis primeros ejercicios de logica de programacion con js.
