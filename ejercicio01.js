@@ -1,5 +1,5 @@
 function texto(num){
-    let str = num.toStirng();
+    let str = num.toString();
     let alReves = str.split("").reverse().join("");
     return str === alReves
 }
