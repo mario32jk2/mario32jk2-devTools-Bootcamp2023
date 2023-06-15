@@ -15,21 +15,14 @@ if (number.length !== 10) {
     return "error en la cantidad de numeros ingresados"
 }
 
-
 const number2 = number.slice(0,11)
-console.log(number2)
-
 
 const number3 = number2.splice(0,0,"(")
 const number4 = number2.splice(4,0,")")
 const number5 = number2.splice(8,0,"-")
-console.log(number2)
 
 const str = number2.toString()
-console.log(str)
-
 let resultadoFinal = number2.join("")
-console.log(resultadoFinal)
 return resultadoFinal
 }
 console.log(createPhoneNumbe([3, 0, 0, 6, 3, 1, 0, 2, 5, 5]))
