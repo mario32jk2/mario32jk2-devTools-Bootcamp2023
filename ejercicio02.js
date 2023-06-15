@@ -25,4 +25,4 @@ const str = number2.toString()
 let resultadoFinal = number2.join("")
 return resultadoFinal
 }
-console.log(createPhoneNumbe([3, 0, 0, 6, 3, 1, 0, 2, 5, 5]))
+createPhoneNumbe([3, 0, 0, 6, 3, 1, 0, 2, 5, 5])
